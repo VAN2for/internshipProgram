@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name='viewport' content='width=device-width,user-scalable=no'>
+    <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'>
+    <meta name='apple-mobile-web-app-capable' content='yes'>
+    <meta name='apple-mobile-web-app-title' content='MoneyGarden'>
+
+    <link rel="shortcut icon" href="../../lib/imgs/qici.ico" />
+    <title>Preview WebGL</title>
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/Assets/css/style.css"/>
+
+    <script>
+                var qici = {};
+        qici.config = {
+            // 游戏名字，默认为：未命名
+            gameName: 'MoneyGarden',
+
+            // 本地存储标志符，默认为：com.DefaultCompany.Game
+            localStorageID: 'com.qcplay.demo.dota',
+
+            // 游戏示例，将作为全局变量访问，默认为：game
+            gameInstance: 'qc_game',
+
+            // 帧率
+            frameRate: {"mobile":60,"desktop":60},
+
+            // 固定游戏大小
+            fixedGameSize: {"enabled":false,"width":640,"height":960},
+
+            // 分辨率清晰度
+            resolutionRatio: 0.25,
+
+            // 游戏背景色
+            backgroundColor: 4671303,
+
+            // 后台运行
+            runInBackground: true,
+
+            // 启用多语言系统
+            useLanguages: true,
+
+            // 抗锯齿
+            antialias: true,
+
+            // 渲染方式
+            renderer: 'Auto',
+
+            // 背景透明
+            transparent: true,
+
+            // 游戏切屏时的进度界面
+            loadingPrefab: '',
+
+            // 开发模式
+            developerMode: true,
+
+            // 是否启用脏矩形
+            dirtyRectangles: false,
+
+            // 是否显示脏矩形区域
+            dirtyRectanglesShow: false,
+
+            // 自定义配置
+            customSettings: {},
+
+            // 所有的游戏场景
+            scene: [
+                'Temp/scene_editor',
+                "resource/scene/gamePlay"
+            ],
+
+            // 入口场景
+            entryScene : 'Temp/scene_editor',
+            loadingHandler: 'progressHandler',
+            loading: {
+                loadingText: 'Loading, please wait...',
+                loadingInterval: 200,
+                brightingInterval: 10,
+                blinkingCount: 5,
+                blinkingInterval: 70,
+                fadingInInterval: 50,
+                fadingOutInterval: 100
+            }
+        };
+
+        qici.config.renderer = 'WebGL';
+        qici.config.developerMode = true;
+        qici.config.preview = true;
+        // qici.config.remoteLogUrl = window.location.origin;
+
+                function initResizableGameSize(){
+            var game = window[qici.config.gameInstance];
+            if (game.fixedGameSize) {
+                game.phaser.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+            }
+            else {
+                game.phaser.scale.scaleMode = Phaser.ScaleManager.NO_SCALE;    
+            }            
+        
+            var gameDiv = document.getElementById('gameDiv'),
+                width = document.documentElement.clientWidth - 60,
+                height = (Math.min(window.innerHeight, document.documentElement.clientHeight) || document.documentElement.clientHeight) - 60;
+        
+            gameDiv.style.left = '30px';
+            gameDiv.style.top = '30px';
+            gameDiv.style.width = width + 'px';
+            gameDiv.style.height = height + 'px';
+        
+            var dragDiv = document.getElementById('dragDiv');
+            dragDiv.style.msTouchAction = 'none';
+            dragDiv.style.setProperty("-webkit-tap-highlight-color", "rgba(0, 0, 0, 0)", null);
+            dragDiv.style.width = '60px';
+            dragDiv.style.height = '60px';
+            dragDiv.style.borderRadius = '30px';
+            dragDiv.style.background = 'rgba(128,128,128,0.5)';
+            dragDiv.style.cursor = 'pointer';
+            dragDiv.style.left = width + 'px';
+            dragDiv.style.top = height + 'px';
+        
+            var lastClientPoint = null,
+                lastWidth = null,
+                lastHeight = null;
+        
+            function getClientPoint(event){
+                return {
+                    x: event.clientX,
+                    y: event.clientY
+                };
+            }            
+
+            function handleDown(event){
+                event.preventDefault();
+                if (game.paused) {
+                    return;
+                }
+                lastClientPoint = getClientPoint(event);
+                lastWidth = width;
+                lastHeight = height;
+            }
+            
+            function handleMove(event){
+                if (event.target === dragDiv) {
+                    dragDiv.style.background = 'rgba(128,128,128,0.8)';
+                }else {
+                    dragDiv.style.background = 'rgba(128,128,128,0.5)';
+                }
+                if (lastClientPoint) {
+                    var clientPoint = getClientPoint(event),
+                        dx = clientPoint.x - lastClientPoint.x,
+                        dy = clientPoint.y - lastClientPoint.y;
+        
+                    width = lastWidth + dx;
+                    height = lastHeight + dy;
+                    
+                    resizeGameSize();
+                }
+            }
+        
+            function handleUp(event){
+                lastClientPoint = null;
+                dragDiv.style.background = 'rgba(128,128,128,0.5)';
+            }        
+        
+            function resizeGameSize(){ 
+                gameDiv.style.width = width + 'px';
+                gameDiv.style.height = height + 'px';
+                dragDiv.style.left = width + 'px';
+                dragDiv.style.top = height + 'px';   
+                game.setGameSize(width, height);  
+                game.world && game.world.updateDomRoot();                                                          
+            };
+
+            dragDiv.addEventListener('mousedown', handleDown, false);
+            dragDiv.addEventListener('touchstart', handleDown, false);
+        
+            window.addEventListener('mousemove', handleMove, false);
+            window.addEventListener('touchmove', handleMove, false);
+        
+            window.addEventListener('mouseup', handleUp, false);
+            window.addEventListener('touchend', handleUp, false);
+
+            var updateGameLayout = game.updateGameLayout;
+            game.updateGameLayout = function(force){
+                if (force) {
+                    resizeGameSize();
+                }
+                updateGameLayout.call(game, force);
+            };
+            game.updateGameLayout();
+        }
+
+
+        
+
+        		_pluginVariables_={}
+
+        qici.scripts = [
+            './Assets/meta/globalUrlMap.js',
+            '../lib/phaser.js',
+            '../lib/webfontloader.js',
+            '../lib/qc-core-debug.js',
+            '../lib/PlaySmartEditorData.js',
+            // sound duration
+            
+            // asset count
+            './Assets/meta/assetCountMap.js',
+            // 多语言系统接口
+            "../lib/expand/languagesMgr/languagesMgr.js",
+            // External scripts for plugins
+            
+            // Plugins scripts
+            			['../Plugins/com.qici.particleSystem/Script/ParticleSystem.js?20231113223029', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Transitions/Transform.js?20231113223030', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Zones/Zone.js?20231113223030', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Emitter.js?20231113223033', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/EmitterViewer.js?20231113223037', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Particle.js?20231113223039', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Renderer/Sprite.js?20231113223039', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Transitions/Color.js?20231113223039', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Util.js?20231113223047', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Zones/Circle.js?20231113223047', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Zones/Line.js?20231113223048', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Zones/Point.js?20231113223048', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Zones/Rectangle.js?20231113223048', 'com.qici.particleSystem'],
+
+            // User scripts
+            			'./Scripts/custom/module/EventDispatcher.js?20231113214132',
+			'./Scripts/custom/module/GameState.js?20231113214132',
+			'./Scripts/custom/core/Behaviour.js?20231113214132',
+			'./Scripts/custom/core/ScrFix.js?20231113214132',
+			'./Scripts/custom/core/PlaySmart.js?20231113214132',
+			'./Scripts/custom/tween/TweenBase.js?20231113214132',
+			'./Scripts/custom/module/UpdateList.js?20231113214132',
+			'./Scripts/custom/module/CDManager.js?20231113214132',
+			'./Scripts/custom/module/CoolDown.js?20231113214132',
+			'./Scripts/game/mvc/view/abstract/AbstractGameViewAsset.js?20231113214206',
+			'./Scripts/custom/component/AStarComponent.js?20231114204915',
+			'./Scripts/custom/component/BannerScroll.js?20231114204915',
+			'./Scripts/custom/component/Bezier.js?20231114204915',
+			'./Scripts/custom/component/BgMask.js?20231114204915',
+			'./Scripts/custom/component/Bubble.js?20231114204915',
+			'./Scripts/custom/component/Camera.js?20231114204915',
+			'./Scripts/custom/component/CameraFollow.js?20231114204915',
+			'./Scripts/custom/component/CircleRing.js?20231114204915',
+			'./Scripts/custom/component/Clock.js?20231114204915',
+			'./Scripts/custom/component/CtrlPanel.js?20231114204915',
+			'./Scripts/custom/component/CutEnd.js?20231114204915',
+			'./Scripts/custom/component/DebugConfig.js?20231114204915',
+			'./Scripts/custom/component/DraggableItem.js?20231114204915',
+			'./Scripts/custom/component/DrawFan.js?20231114204915',
+			'./Scripts/custom/component/Finger.js?20231114204915',
+			'./Scripts/custom/component/Halo.js?20231114204915',
+			'./Scripts/custom/component/InfinityBg.js?20231114204915',
+			'./Scripts/custom/component/InstallBtn.js?20231114204915',
+			'./Scripts/custom/component/Joystick.js?20231114204915',
+			'./Scripts/custom/component/KLine.js?20231114204915',
+			'./Scripts/custom/component/Languages.js?20231114204915',
+			'./Scripts/custom/component/Layout.js?20231114204915',
+			'./Scripts/custom/component/ListScroll.js?20231114204915',
+			'./Scripts/custom/component/MoveParticle.js?20231114204915',
+			'./Scripts/custom/component/MovieClip.js?20231114204915',
+			'./Scripts/custom/component/NumScroll.js?20231114204915',
+			'./Scripts/custom/component/Parabola.js?20231114204915',
+			'./Scripts/custom/component/ParticleRain.js?20231114204915',
+			'./Scripts/custom/component/PokerAni.js?20231114204915',
+			'./Scripts/custom/component/ProgressBar.js?20231114204915',
+			'./Scripts/custom/component/RandomStart.js?20231114204915',
+			'./Scripts/custom/component/RetryBtn.js?20231114204915',
+			'./Scripts/custom/component/ReverseMask.js?20231114204915',
+			'./Scripts/custom/component/RotationAni.js?20231114204915',
+			'./Scripts/custom/component/RunCode.js?20231114204915',
+			'./Scripts/custom/component/SceenTransition.js?20231114204915',
+			'./Scripts/custom/component/ScrollBackground.js?20231114204915',
+			'./Scripts/custom/component/SendAction.js?20231114204915',
+			'./Scripts/custom/component/Shake.js?20231114204915',
+			'./Scripts/custom/component/showIcon.js?20231114204915',
+			'./Scripts/custom/component/SKPlayer.js?20231114204915',
+			'./Scripts/custom/component/SlideSelecte.js?20231114204915',
+			'./Scripts/custom/component/SlidingController.js?20231114204915',
+			'./Scripts/custom/component/StartBtn.js?20231114204915',
+			'./Scripts/custom/component/startRing.js?20231114204915',
+			'./Scripts/custom/component/State.js?20231114204915',
+			'./Scripts/custom/component/Switch.js?20231114204915',
+			'./Scripts/custom/component/Talk.js?20231114204915',
+			'./Scripts/custom/component/TouchMask.js?20231114204915',
+			'./Scripts/custom/component/Trail.js?20231114204915',
+			'./Scripts/custom/component/TypeWriter.js?20231114204915',
+			'./Scripts/custom/component/VideoBeh.js?20231114204915',
+			'./Scripts/custom/component/VirtualJoystick.js?20231114204915',
+			'./Scripts/custom/core/ActionEvent.js?20231113214132',
+			'./Scripts/custom/core/Base64.js?20231113214132',
+			'./Scripts/custom/core/Decorators.js?20231113214132',
+			'./Scripts/custom/core/Extension.js?20231113214132',
+			'./Scripts/custom/core/Extra.js?20231113214132',
+			'./Scripts/custom/core/MainConfig.js?20231113214132',
+			'./Scripts/custom/module/AStar.js?20231113214132',
+			'./Scripts/custom/module/Audio.js?20231113214132',
+			'./Scripts/custom/module/GameConfig.js?20231113214132',
+			'./Scripts/custom/module/IosOrAndroid.js?20231113214132',
+			'./Scripts/custom/module/Mathf.js?20231113214132',
+			'./Scripts/custom/module/PopBox.js?20231113214132',
+			'./Scripts/custom/module/Print.js?20231113214132',
+			'./Scripts/custom/module/Random.js?20231113214132',
+			'./Scripts/custom/module/Records.js?20231113214132',
+			'./Scripts/custom/module/ShakeTool.js?20231113214132',
+			'./Scripts/custom/module/SwitchState.js?20231113214132',
+			'./Scripts/custom/module/Timer.js?20231113214132',
+			'./Scripts/custom/module/Tools.js?20231113214132',
+			'./Scripts/custom/module/Tween.js?20231113214132',
+			'./Scripts/custom/tween/ClickTweenScale.js?20231113214132',
+			'./Scripts/custom/tween/Glint.js?20231113214132',
+			'./Scripts/custom/tween/Hide.js?20231113214132',
+			'./Scripts/custom/tween/Move.js?20231113214132',
+			'./Scripts/custom/tween/Rotation.js?20231113214132',
+			'./Scripts/custom/tween/RotationFrame.js?20231113214132',
+			'./Scripts/custom/tween/RubberBand.js?20231113214132',
+			'./Scripts/custom/tween/Show.js?20231113214132',
+			'./Scripts/custom/tween/Zoom.js?20231113214132',
+			'./Scripts/custom/xtween/XTween.js?20231113214132',
+			'./Scripts/EndingBeh.js?20231113214206',
+			'./Scripts/game/common/abstract/BaseEventDispatcher.js?20231113214206',
+			'./Scripts/game/common/abstract/mvc/AbstractModel.js?20231113214206',
+			'./Scripts/game/common/utils/ArrayUtils.js?20231113214206',
+			'./Scripts/game/common/utils/MathUtils.js?20231113214206',
+			'./Scripts/game/common/utils/PSUtils.js?20231113214206',
+			'./Scripts/game/mvc/controller/GameController.js?20231113214206',
+			'./Scripts/game/mvc/model/GameDefs.js?20231113214206',
+			'./Scripts/game/mvc/model/GameModel.js?20231113214206',
+			'./Scripts/game/mvc/model/GameResBindings.js?20231113214206',
+			'./Scripts/game/mvc/view/assets/AllMoneyScript.js?20231113214206',
+			'./Scripts/game/mvc/view/assets/ItemScript.js?20231113214206',
+			'./Scripts/game/mvc/view/assets/ItemsScript.js?20231113214206',
+			'./Scripts/game/mvc/view/GameView.js?20231113214206',
+			'./Scripts/game/mvc/view/GetMoneyView.js?20231113214206',
+			'./Scripts/GAME_CFG.js?20231113214206',
+			'./Scripts/libs/webaudio.js?20231113214132',
+			'./Scripts/MainBeh.js?20231113214206',
+			'./Scripts/StartBeh.js?20231113214206',
+
+        ];
+
+        // Asset count that need preload in boot
+        qici.loadingAssetCount = 25;
+    </script>
+</head>
+
+<body onload="qici.init();">
+    <div style="overflow:hidden;padding:0;margin:0;width:100%;height:100%;">
+        <div id="dragDiv" style="position:absolute"></div>
+        <div id="gameDiv" style="position:absolute"></div>
+    </div>
+    <script src="../lib/LAB.js"></script>
+    <script src="../lib/qc-loading-debug.js"></script>
+    <script src='../lib/qc-loading-editor.js'></script>
+</body>
+</html>

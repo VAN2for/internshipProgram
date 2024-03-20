@@ -1,0 +1,19 @@
+{
+    "logicalScriptOrder": [
+        "Scripts/libs/jsmpeg/jsmpeg.js",
+        "Scripts/custom/module/PlaySmart.js",
+        "Scripts/custom/module/ScrFix.js",
+        "Scripts/custom/component/MainConfig.js",
+        "Scripts/custom/module/EventDispatcher.js",
+        "Scripts/custom/module/GameState.js",
+        "Scripts/custom/core/Behaviour.js",
+        "Scripts/custom/tween/TweenBase.js",
+        "Scripts/custom/module/UpdateList.js",
+        "Scripts/custom/module/CDManager.js",
+        "Scripts/custom/module/CoolDown.js",
+        "Scripts/custom/component/DraggableItem.js",
+        "Scripts/GameplayTemplate/findItemTouch/view/FindItemTouchView.js",
+        "Scripts/GameplayTemplate/scrollFindItemTouch/view/ScrollFindItemView.js"
+    ],
+    "editorScriptOrder": []
+}

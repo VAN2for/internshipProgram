@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "outDir": "Scripts/",
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "lib": [
+      "ES6",
+      "ES2015",
+      "DOM"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "resource",
+    "Build",
+  ]
+}

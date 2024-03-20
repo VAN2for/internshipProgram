@@ -1,0 +1,10 @@
+{
+    "id": "threejs",
+    "name": "threejs",
+    "version": "1.0",
+    "dependence": [
+    ],
+    "scriptOrder" : [
+        "three.js"
+    ]
+}

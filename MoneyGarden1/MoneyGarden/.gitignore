@@ -1,0 +1,19 @@
+*.map
+/.vscode/
+/node_modules/
+/Temp/
+
+/Build/*
+!/Build/*.bat
+!/Build/readme.txt
+
+/Scripts/*
+!/Scripts/ending.js
+!/Scripts/ending.d.ts
+!/Scripts/custom/
+!/Scripts/libs/
+**/~*.xlsx
+*/.d.ts.meta
+TypeScripts/**/*.meta
+
+# /Assets/meta/assetCountMap.js

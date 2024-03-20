@@ -1,0 +1,170 @@
+{
+    "gameConfig": {
+        "onceMoney": {
+            "value": 0.85,
+            "min": 0.01,
+            "max": 2,
+            "interval": 0.01,
+            "globalClick": 0,
+            "autoClick": 0,
+            "ydClick": 0,
+            "type": "slider",
+            "priority": 0,
+            "title": "元素每秒生成金额",
+            "stage": "game",
+            "group": "group_stage1"
+        },
+        "config": {
+            "type": "array",
+            "desc": "结束游戏条件",
+            "items": [
+                {
+                    "value": "3次",
+                    "options": [
+                        "1次",
+                        "2次",
+                        "3次"
+                    ],
+                    "globalClick": 0,
+                    "autoClick": 0,
+                    "ydClick": 0,
+                    "type": "radio",
+                    "priority": 1,
+                    "pl_key": "mergeCntToEnd",
+                    "title": "合成几次结束游戏"
+                },
+                {
+                    "value": "200",
+                    "globalClick": 0,
+                    "autoClick": 0,
+                    "ydClick": 0,
+                    "type": "input",
+                    "priority": 2,
+                    "pl_key": "moneyToEnd",
+                    "title": "获得多少金额结束"
+                }
+            ],
+            "stage": "game"
+        },
+        "config1": {
+            "type": "array",
+            "desc": "特效调节",
+            "items": [
+                {
+                    "value": "中",
+                    "options": [
+                        "强",
+                        "中",
+                        "弱"
+                    ],
+                    "globalClick": 0,
+                    "autoClick": 0,
+                    "ydClick": 0,
+                    "type": "radio",
+                    "priority": 3,
+                    "pl_key": "clickEff",
+                    "title": "点击反馈特效"
+                },
+                {
+                    "value": "中",
+                    "options": [
+                        "强",
+                        "中",
+                        "弱"
+                    ],
+                    "globalClick": 0,
+                    "autoClick": 0,
+                    "ydClick": 0,
+                    "type": "radio",
+                    "priority": 4,
+                    "pl_key": "getMoneyEff",
+                    "title": "游戏中奖励特效"
+                },
+                {
+                    "value": "中",
+                    "options": [
+                        "强",
+                        "中",
+                        "弱"
+                    ],
+                    "globalClick": 0,
+                    "autoClick": 0,
+                    "ydClick": 0,
+                    "type": "radio",
+                    "priority": 5,
+                    "pl_key": "sprayEff",
+                    "title": "游戏结束撒落特效"
+                }
+            ],
+            "stage": "ending",
+            "group": "group_stage2"
+        },
+        "config2": {
+            "type": "array",
+            "desc": "免责声明",
+            "items": [
+                {
+                    "value": true,
+                    "globalClick": 0,
+                    "autoClick": 0,
+                    "ydClick": 0,
+                    "type": "switch",
+                    "priority": 6,
+                    "pl_key": "isShowDisclaimer",
+                    "title": "免责声明展示开关"
+                }
+            ],
+            "stage": "game",
+            "group": "group_permanent",
+            "resource": "cover.png"
+        },
+        "isShowEndGuide": {
+            "value": true,
+            "globalClick": 0,
+            "autoClick": 0,
+            "ydClick": 0,
+            "type": "switch",
+            "priority": 7,
+            "title": "结束页是否展示手指",
+            "stage": "ending",
+            "resource": "handEnd.png"
+        },
+        "isShowEndMoney": {
+            "value": true,
+            "globalClick": 0,
+            "autoClick": 0,
+            "ydClick": 0,
+            "type": "switch",
+            "priority": 8,
+            "title": "结束页是否展示奖励金额",
+            "stage": "ending",
+            "group": "group_notification",
+            "resource": "board.png"
+        },
+        "isGlobalInstall": {
+            "value": false,
+            "globalClick": 0,
+            "autoClick": 0,
+            "ydClick": 0,
+            "type": "switch",
+            "priority": 9,
+            "title": "游戏结束是否全局可点",
+            "desc": "游戏结束时，点击任意位置跳转下载",
+            "stage": "ending"
+        },
+        "moneySymbolPosition": {
+            "value": "前",
+            "options": [
+                "前",
+                "后"
+            ],
+            "globalClick": 0,
+            "autoClick": 0,
+            "ydClick": 0,
+            "type": "radio",
+            "priority": 10,
+            "title": "金币符号的位置",
+            "stage": "game"
+        }
+    }
+}

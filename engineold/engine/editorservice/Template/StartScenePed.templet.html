@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+__VIEWPORT__
+    <title>编辑器启动场景的脚本</title>
+</head>
+
+<body onload="qici.init();">
+
+	<style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+	<script>
+
+__CONFIG__
+        qici.config.basicTemplate = 'ziyan';
+        qici.config.developerMode = true;
+        qici.config.editor = true;
+        qici.config.runInBackground = true;
+        qici.config.useLanguages = false;
+        qici.config.frameRate = {
+            "mobile": 30,
+            "desktop": 30
+        };
+
+   __PLUGIN_VARIABLES__
+
+        qici.scripts = [
+            __URLMAP_SCRIPTS__
+            '../lib/phaser.js',
+            '../lib/webfontloader.js',
+            '../lib/qc-core-debug.js',
+            '../lib/PlaySmartEditorData.js',
+            // sound duration
+            __SOUND_DURATION__
+            // asset count
+            __ASSET_COUNT__
+            // 多语言系统接口
+            __LANGUAGES_MGR___PUBLISH
+            // External scripts for plugins
+            __EXTERNAL_PLUGINS_SCRIPTS__
+            // Plugins scripts
+            __PLUGINS_SCRIPTS__
+            // User scripts
+            __USER_SCRIPTS__
+        ];
+
+        // Asset count that need preload in boot
+        qici.loadingAssetCount = __LOADING_ASSET_COUNT__;
+    </script>
+    <div style="overflow:hidden;padding:0;margin:0;width:100%;height:100%;">
+        <div id="gameDiv" style="position:absolute;width:100%;height:100%"></div>
+    </div>
+    <script type="text/javascript">
+        function resizeGameSize() {
+          var game = window[qici.config.gameInstance];
+          if (!game) return;
+          gameDiv.style.width = window.innerWidth + "px";
+          gameDiv.style.height = window.innerHeight + "px";
+          game.setGameSize(window.innerWidth, window.innerHeight);
+          game.world && game.world.updateDomRoot();
+        }
+        window.addEventListener("resize", function () {
+          resizeGameSize();
+        });
+        window.gameReady = function () {
+          parent.postMessage("scene-game-ready", "*");
+        };
+        // playsmart编辑器编辑自研项目需要此字段做区分相关group和多语言逻辑
+        window.noScanGroup = true;
+      </script>
+    <script src="../lib/LAB.js"></script>
+    <script src='../lib/qc-loading-debug.js'></script>
+    <script src='../lib/qc-loading-editor.js'></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+resource/game/audio/bm_bgm.mp3
+resource/game/audio/audio_b6b9b183.mp3
+resource/game/audio/audio_39035005.mp3
+resource/game/audio/audio_b6b9b183.mp3
+resource/game/audio/audio_a4bd458b.mp3
+resource/game/audio/audio_e2376952.mp3
+resource/game/audio/audio_431afbeb.mp3
+resource/game/audio/audio_b6b9b183.mp3
+resource/game/audio/audio_c338f615.mp3
+resource/game/audio/audio_678ace83.mp3
+resource/game/texture/pb_bg.jpg
+resource/game/texture/pb_bg.bin

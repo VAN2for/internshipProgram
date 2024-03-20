@@ -1,0 +1,7 @@
+.idea
+/editorservice/project.setting
+/editorservice/editor.appcache
+/debug.log
+/editorservice/ExcelToConfig.setting
+/node_modules
+/.vscode

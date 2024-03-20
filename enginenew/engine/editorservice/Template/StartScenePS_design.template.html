@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="copyright" content="playsmart" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+__VIEWPORT__
+    <meta name="template-version" content="{{template-version}}" />
+    <title>编辑器启动场景的脚本</title>
+</head>
+
+<body onload="qici.init();">
+
+	<style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+	<script>
+
+__CONFIG__
+        qici.config.basicTemplate = 'selfDev';
+        qici.config.developerMode = true;
+        qici.config.editor = true;
+        qici.config.runInBackground = true;
+        qici.config.useLanguages = true;
+        qici.config.frameRate = {
+            "mobile": 30,
+            "desktop": 30
+        };
+
+   __PLUGIN_VARIABLES__
+
+        qici.scripts = [
+            __URLMAP_SCRIPTS__
+            '../lib/phaser.js',
+            '../lib/webfontloader.js',
+            '../lib/qc-core-debug.js',
+            '../lib/PlaySmartEditorData.js',
+            // sound duration
+            __SOUND_DURATION__
+            // asset count
+            __ASSET_COUNT__
+            // External scripts for plugins
+            __EXTERNAL_PLUGINS_SCRIPTS__
+            // Plugins scripts
+            __PLUGINS_SCRIPTS__
+            // User scripts
+            __USER_SCRIPTS__
+        ];
+
+        // Asset count that need preload in boot
+        qici.loadingAssetCount = __LOADING_ASSET_COUNT__;
+    </script>
+    <div style="overflow: hidden; padding: 0; margin: 0; width: 100%; height: 100%">
+    <div id="gameDiv" style="position: absolute; width: 100%; height: 100%"></div>
+    </div>
+    <script type="text/javascript">
+    function resizeGameSize() {
+        var game = window[qici.config.gameInstance];
+        if (!game) return;
+        gameDiv.style.width = window.innerWidth + "px";
+        gameDiv.style.height = window.innerHeight + "px";
+        game.setGameSize(window.innerWidth, window.innerHeight);
+        game.world && game.world.updateDomRoot();
+    }
+    window.addEventListener("resize", function () {
+        resizeGameSize();
+    });
+    window.gameReady = function () {
+        var gamePlay = qc.gameOb.world.children[0].children[0];
+        var ped = gamePlay.getScript("playsmart.editor.data");
+        if (typeof ped === "undefined") {
+        ped = gamePlay.addScript("playsmart.editor.data");
+        }
+        if (ped && !ped.sceneData) ped.sceneData = {};
+        if (gamePlay.children.length > 0) {
+        gamePlay.children.forEach(function (scene) {
+            if (scene && ped && ped.sceneData && typeof ped.sceneData[scene.uuid] === "undefined") {
+            ped.sceneData[scene.uuid] = {
+                children: [],
+                sceneName: scene.name,
+            };
+            }
+        });
+        }
+
+        function ensureScript(node, className) {
+        if (!node.getScript(className)) {
+            node.addScript(className);
+        }
+        }
+
+        ensureScript(gamePlay, "ps.VPGamePlay")
+        ensureScript(gamePlay, "ps.VPTimer")
+        ensureScript(gamePlay, "ps.VideosManager")
+
+        parent.postMessage("scene-game-ready-design", "*");
+    };
+    </script>
+    <script type="text/javascript">
+    window.alert = function (msg) {
+        console.error(msg);
+    };
+    </script>
+    
+    <script src="../lib/LAB.js"></script>
+    <script src='../lib/qc-loading-debug.js'></script>
+    <script src='../lib/qc-loading-editor.js'></script>
+    <script src="../lib/expand/languagesMgr/languagesMgr.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.DS_Store
+*.map
+**/.vscode/
+**/node_modules/
+**/~*.xlsx
+**/.d.ts.meta
+
+TypeScripts/**/*.meta
+/Temp/

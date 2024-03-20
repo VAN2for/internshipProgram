@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="copyright" content="playsmart" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name='viewport' content='width=device-width,user-scalable=no'>
+    <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'>
+    <meta name='apple-mobile-web-app-capable' content='yes'>
+    <meta name='apple-mobile-web-app-title' content='libProject'>
+
+    <meta name="template-version" content="{{template-version}}" />
+    <title>编辑器启动场景的脚本</title>
+</head>
+
+<body onload="qici.init();">
+
+	<style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+	<script>
+
+        var qici = {};
+        qici.config = {
+            // 游戏名字，默认为：未命名
+            gameName: 'libProject',
+
+            // 本地存储标志符，默认为：com.DefaultCompany.Game
+            localStorageID: 'com.qcplay.demo.dota',
+
+            // 游戏示例，将作为全局变量访问，默认为：game
+            gameInstance: 'qc_game',
+
+            // 帧率
+            frameRate: {"mobile":60,"desktop":60},
+
+            // 固定游戏大小
+            fixedGameSize: {"enabled":false,"width":640,"height":960},
+
+            // 分辨率清晰度
+            resolutionRatio: 0.25,
+
+            // 游戏背景色
+            backgroundColor: 4671303,
+
+            // 后台运行
+            runInBackground: true,
+
+            // 启用多语言系统
+            useLanguages: true,
+
+            // 抗锯齿
+            antialias: true,
+
+            // 渲染方式
+            renderer: 'Auto',
+
+            // 背景透明
+            transparent: true,
+
+            // 游戏切屏时的进度界面
+            loadingPrefab: '',
+
+            // 开发模式
+            developerMode: true,
+
+            // 是否启用脏矩形
+            dirtyRectangles: false,
+
+            // 是否显示脏矩形区域
+            dirtyRectanglesShow: false,
+
+            // 自定义配置
+            customSettings: {},
+
+            // 所有的游戏场景
+            scene: [
+                'Temp/scene_editor',
+                "resource/scene/gamePlay"
+            ],
+
+            // 入口场景
+            entryScene : 'Temp/scene_editor',
+            loadingHandler: 'progressHandler',
+            loading: {
+                loadingText: 'Loading, please wait...',
+                loadingInterval: 200,
+                brightingInterval: 10,
+                blinkingCount: 5,
+                blinkingInterval: 70,
+                fadingInInterval: 50,
+                fadingOutInterval: 100
+            }
+        };
+
+        qici.config.basicTemplate = 'selfDev';
+        qici.config.scene = ['Temp/scene_editor_tech','resource/scene/gamePlay'];
+        qici.config.entryScene = 'Temp/scene_editor_tech';
+        qici.config.developerMode = true;
+        qici.config.editor = true;
+        qici.config.runInBackground = true;
+        qici.config.useLanguages = true;
+        qici.config.frameRate = {
+            "mobile": 30,
+            "desktop": 30
+        };
+
+   		_pluginVariables_={}
+
+        qici.scripts = [
+            './Assets/meta/globalUrlMap.js',
+            '../lib/phaser.js',
+            '../lib/webfontloader.js',
+            '../lib/qc-core-debug.js',
+            '../lib/PlaySmartEditorData.js',
+            // sound duration
+            
+            // asset count
+            './Assets/meta/assetCountMap.js',
+            // External scripts for plugins
+            
+            // Plugins scripts
+            			['../Plugins/com.qici.particleSystem/Script/ParticleSystem.js?20240319233330', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Transitions/Transform.js?20240319233330', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Zones/Zone.js?20240319233330', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Emitter.js?20240319233330', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/EmitterViewer.js?20240319233330', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Particle.js?20240319233330', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Renderer/Sprite.js?20240319233330', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Transitions/Color.js?20240319233330', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Util.js?20240319233330', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Zones/Circle.js?20240319233330', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Zones/Line.js?20240319233330', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Zones/Point.js?20240319233330', 'com.qici.particleSystem'],
+			['../Plugins/com.qici.particleSystem/Script/Zones/Rectangle.js?20240319233330', 'com.qici.particleSystem'],
+
+            // User scripts
+            			'./Scripts/libs/jsmpeg/jsmpeg.js?20240320104438',
+			'./Scripts/custom/module/EventDispatcher.js?20240320104438',
+			'./Scripts/custom/module/GameState.js?20240320104438',
+			'./Scripts/custom/core/Behaviour.js?20240320104438',
+			'./Scripts/custom/tween/TweenBase.js?20240320104438',
+			'./Scripts/custom/module/UpdateList.js?20240320104438',
+			'./Scripts/custom/module/CDManager.js?20240320104438',
+			'./Scripts/custom/module/CoolDown.js?20240320104438',
+			'./Scripts/custom/component/DraggableItem.js?20240320104438',
+			'./Scripts/GameplayTemplate/findItemTouch/view/FindItemTouchView.js?20240320104438',
+			'./Scripts/GameplayTemplate/scrollFindItemTouch/view/ScrollFindItemView.js?20240320104438',
+			'./Scripts/custom/component/AStarComponent.js?20240320104438',
+			'./Scripts/custom/component/BannerScroll.js?20240320104438',
+			'./Scripts/custom/component/Bezier.js?20240320104438',
+			'./Scripts/custom/component/BgMask.js?20240320104438',
+			'./Scripts/custom/component/BroadcastDisclaimer.js?20240320104438',
+			'./Scripts/custom/component/Bubble.js?20240320104438',
+			'./Scripts/custom/component/Camera.js?20240320104438',
+			'./Scripts/custom/component/CameraFollow.js?20240320104438',
+			'./Scripts/custom/component/CircleRing.js?20240320104438',
+			'./Scripts/custom/component/Clock.js?20240320104438',
+			'./Scripts/custom/component/CtrlPanel.js?20240320104438',
+			'./Scripts/custom/component/CutEnd.js?20240320104438',
+			'./Scripts/custom/component/DebugConfig.js?20240320104438',
+			'./Scripts/custom/component/DrawFan.js?20240320104438',
+			'./Scripts/custom/component/Finger.js?20240320104438',
+			'./Scripts/custom/component/Halo.js?20240320104438',
+			'./Scripts/custom/component/InduceInstallBtn.js?20240320104438',
+			'./Scripts/custom/component/InduceRetryBtn.js?20240320104438',
+			'./Scripts/custom/component/InfinityBg.js?20240320104438',
+			'./Scripts/custom/component/InstallBtn.js?20240320104438',
+			'./Scripts/custom/component/Joystick.js?20240320104438',
+			'./Scripts/custom/component/KLine.js?20240320104438',
+			'./Scripts/custom/component/Languages.js?20240320104438',
+			'./Scripts/custom/component/Layout.js?20240320104438',
+			'./Scripts/custom/component/ListScroll.js?20240320104438',
+			'./Scripts/custom/component/MoveParticle.js?20240320104438',
+			'./Scripts/custom/component/MovieClip.js?20240320104438',
+			'./Scripts/custom/component/NumScroll.js?20240320104438',
+			'./Scripts/custom/component/Parabola.js?20240320104438',
+			'./Scripts/custom/component/ParticleRain.js?20240320104438',
+			'./Scripts/custom/component/PokerAni.js?20240320104438',
+			'./Scripts/custom/component/ProgressBar.js?20240320104438',
+			'./Scripts/custom/component/RandomStart.js?20240320104438',
+			'./Scripts/custom/component/RetryBtn.js?20240320104438',
+			'./Scripts/custom/component/ReverseMask.js?20240320104438',
+			'./Scripts/custom/component/RotationAni.js?20240320104438',
+			'./Scripts/custom/component/RotationIcon.js?20240320104438',
+			'./Scripts/custom/component/RunCode.js?20240320104438',
+			'./Scripts/custom/component/Scrape.js?20240320104438',
+			'./Scripts/custom/component/ScrollBackground.js?20240320104438',
+			'./Scripts/custom/component/SendAction.js?20240320104438',
+			'./Scripts/custom/component/Shake.js?20240320104438',
+			'./Scripts/custom/component/showIcon.js?20240320104438',
+			'./Scripts/custom/component/SKPlayer.js?20240320104438',
+			'./Scripts/custom/component/SlideSelecte.js?20240320104438',
+			'./Scripts/custom/component/SlidingController.js?20240320104438',
+			'./Scripts/custom/component/StartBtn.js?20240320104438',
+			'./Scripts/custom/component/startRing.js?20240320104438',
+			'./Scripts/custom/component/State.js?20240320104438',
+			'./Scripts/custom/component/Switch.js?20240320104438',
+			'./Scripts/custom/component/Talk.js?20240320104438',
+			'./Scripts/custom/component/TouchMask.js?20240320104438',
+			'./Scripts/custom/component/Trail.js?20240320104438',
+			'./Scripts/custom/component/TypeWriter.js?20240320104438',
+			'./Scripts/custom/component/UserBehaviour.js?20240320104438',
+			'./Scripts/custom/component/Video.js?20240320104438',
+			'./Scripts/custom/component/VideoBeh.js?20240320104438',
+			'./Scripts/custom/component/VideosManager.js?20240320104438',
+			'./Scripts/custom/component/VirtualJoystick.js?20240320104438',
+			'./Scripts/custom/core/ActionEvent.js?20240320104438',
+			'./Scripts/custom/core/Base64.js?20240320104438',
+			'./Scripts/custom/core/Decorators.js?20240320104438',
+			'./Scripts/custom/core/ElementGui.js?20240319233348',
+			'./Scripts/custom/core/Extension.js?20240320104438',
+			'./Scripts/custom/core/Extra.js?20240320104438',
+			'./Scripts/custom/core/MainConfig.js?20240320104438',
+			'./Scripts/custom/core/PlaySmart.js?20240320104438',
+			'./Scripts/custom/core/ScrFix.js?20240320104438',
+			'./Scripts/custom/develop/config/ConfigBase.js?20240320104438',
+			'./Scripts/custom/develop/config/ConfigManager.js?20240320104438',
+			'./Scripts/custom/develop/config/ConfigSlider.js?20240320104438',
+			'./Scripts/custom/develop/SlideIn.js?20240320104438',
+			'./Scripts/custom/module/AStar.js?20240320104438',
+			'./Scripts/custom/module/Audio.js?20240320104438',
+			'./Scripts/custom/module/AudioManager.js?20240320104438',
+			'./Scripts/custom/module/GameConfig.js?20240320104438',
+			'./Scripts/custom/module/IosOrAndroid.js?20240320104438',
+			'./Scripts/custom/module/Mathf.js?20240320104438',
+			'./Scripts/custom/module/PopBox.js?20240320104438',
+			'./Scripts/custom/module/Print.js?20240320104438',
+			'./Scripts/custom/module/Random.js?20240320104438',
+			'./Scripts/custom/module/Records.js?20240320104438',
+			'./Scripts/custom/module/ShakeTool.js?20240320104438',
+			'./Scripts/custom/module/SwitchState.js?20240320104438',
+			'./Scripts/custom/module/Timer.js?20240320104438',
+			'./Scripts/custom/module/Tools.js?20240320104438',
+			'./Scripts/custom/module/Tween.js?20240320104438',
+			'./Scripts/custom/SwitchSceneManager.js?20240320104438',
+			'./Scripts/custom/tween/ClickTweenScale.js?20240320104438',
+			'./Scripts/custom/tween/Glint.js?20240320104438',
+			'./Scripts/custom/tween/Hide.js?20240320104438',
+			'./Scripts/custom/tween/Move.js?20240320104438',
+			'./Scripts/custom/tween/Rotation.js?20240320104438',
+			'./Scripts/custom/tween/RotationFrame.js?20240320104438',
+			'./Scripts/custom/tween/RubberBand.js?20240320104438',
+			'./Scripts/custom/tween/Show.js?20240320104438',
+			'./Scripts/custom/tween/Zoom.js?20240320104438',
+			'./Scripts/custom/VideoManager.js?20240320104438',
+			'./Scripts/custom/xtween/CustomEase/BezierEase.js?20240320104438',
+			'./Scripts/custom/xtween/CustomEase/CustomEase.js?20240319233330',
+			'./Scripts/custom/xtween/CustomEase/SvgPath.js?20240320104438',
+			'./Scripts/custom/xtween/CustomEase/SvgPathEase.js?20240320104438',
+			'./Scripts/custom/xtween/XTween.js?20240320104438',
+			'./Scripts/CustomEventsTools.js?20240320104438',
+			'./Scripts/EndingBeh.js?20240320104438',
+			'./Scripts/GameplayTemplate/2048_card/CardMap.js?20240320104438',
+			'./Scripts/GameplayTemplate/2048_card/Utils.js?20240320104438',
+			'./Scripts/GameplayTemplate/2048_card/WaitMatchCard.js?20240320104438',
+			'./Scripts/GameplayTemplate/2048_numberShoot/createGraph.js?20240320104438',
+			'./Scripts/GameplayTemplate/2048_numberShoot/createNode.js?20240320104438',
+			'./Scripts/GameplayTemplate/2048_numberShoot/mergeNode.js?20240320104438',
+			'./Scripts/GameplayTemplate/2048_numberShoot/update.js?20240320104438',
+			'./Scripts/GameplayTemplate/2048_numberShoot/utils.js?20240320104438',
+			'./Scripts/GameplayTemplate/breakBricks/Brick.js?20240320104438',
+			'./Scripts/GameplayTemplate/breakBricks/BrickControl.js?20240320104438',
+			'./Scripts/GameplayTemplate/breakBricks/Fort.js?20240320104438',
+			'./Scripts/GameplayTemplate/component/CountDown.js?20240320104438',
+			'./Scripts/GameplayTemplate/cooking/ChoiceValidator.js?20240320104438',
+			'./Scripts/GameplayTemplate/cooking/DishesEventDispatcher.js?20240320104438',
+			'./Scripts/GameplayTemplate/cooking/DishesPicker.js?20240320104438',
+			'./Scripts/GameplayTemplate/cutFruit/view/CutAreaView.js?20240320104438',
+			'./Scripts/GameplayTemplate/cutFruit/view/CutItem.js?20240320104438',
+			'./Scripts/GameplayTemplate/cutFruit/view/CutItemEmitter.js?20240320104438',
+			'./Scripts/GameplayTemplate/findItemTouch/view/FindItemsTouchProgress.js?20240320104438',
+			'./Scripts/GameplayTemplate/findItemTouch/view/FindItemsTouchView.js?20240320104438',
+			'./Scripts/GameplayTemplate/findItemTouch/view/FindItemTouchGuide.js?20240320104438',
+			'./Scripts/GameplayTemplate/findItemTouch/view/FindItemTouchOptionAreaView.js?20240320104438',
+			'./Scripts/GameplayTemplate/jump/JumpBox.js?20240320104438',
+			'./Scripts/GameplayTemplate/jump/JumpMeter.js?20240320104438',
+			'./Scripts/GameplayTemplate/jump/JumpSheep.js?20240320104438',
+			'./Scripts/GameplayTemplate/jump/JumpView.js?20240320104438',
+			'./Scripts/GameplayTemplate/jump/Utils.js?20240320104438',
+			'./Scripts/GameplayTemplate/klotsk/KlotskControl.js?20240320104438',
+			'./Scripts/GameplayTemplate/klotsk/KlotskiPuzzle.js?20240320104438',
+			'./Scripts/GameplayTemplate/liquidFluid/view/WaterDefs.js?20240320104438',
+			'./Scripts/GameplayTemplate/liquidFluid/view/WaterFluid.js?20240320104438',
+			'./Scripts/GameplayTemplate/liquidFluid/view/WaterRender.js?20240320104438',
+			'./Scripts/GameplayTemplate/manage/UpgradeButton.js?20240320104438',
+			'./Scripts/GameplayTemplate/manage/Walk.js?20240320104438',
+			'./Scripts/GameplayTemplate/puzzle/view/PuzzleTargetView.js?20240320104438',
+			'./Scripts/GameplayTemplate/puzzle/view/PuzzleView.js?20240320104438',
+			'./Scripts/GameplayTemplate/scrapeOffGame/view/ScrapeOff.js?20240320104438',
+			'./Scripts/GameplayTemplate/scrollFindItemTouch/view/ScrollFindItemOtherTouchView.js?20240320104438',
+			'./Scripts/GameplayTemplate/scrollFindItemTouch/view/ScrollFindItemsManagerView.js?20240320104438',
+			'./Scripts/GameplayTemplate/scrollFindItemTouch/view/ScrollFindItemTargetTouchView.js?20240320104438',
+			'./Scripts/GameplayTemplate/spinWheel/SpinWheel.js?20240320104438',
+			'./Scripts/GAME_CFG.js?20240320104438',
+			'./Scripts/libs/jsmpeg/jsmpeg.min.js?20240320104438',
+			'./Scripts/libs/webaudio.js?20240319233349',
+			'./Scripts/MainBeh.js?20240320104438',
+			'./Scripts/NucManager.js?20240320104438',
+			'./Scripts/ps/Audio.js?20240320104438',
+			'./Scripts/ps/AudioTrigger.js?20240319233349',
+			'./Scripts/ps/Drager.js?20240319233349',
+			'./Scripts/ps/DragTarget.js?20240319233349',
+			'./Scripts/ps/EditText.js?20240319233349',
+			'./Scripts/ps/EmptyNode.js?20240319233349',
+			'./Scripts/ps/EventToy.js?20240319233349',
+			'./Scripts/ps/GlobalConfigBg.js?20240319233349',
+			'./Scripts/ps/QcCoreReload.js?20240319233349',
+			'./Scripts/ps/SceneConfig.js?20240320104438',
+			'./Scripts/ps/TweenPositionArea.js?20240319233349',
+			'./Scripts/ps/VerticalHorizontal.js?20240319233349',
+			'./Scripts/ps/Video.js?20240320104438',
+			'./Scripts/ps/VideosManager.js?20240320104438',
+			'./Scripts/sample/CoolDownSample.js?20240320104438',
+			'./Scripts/sample/DraggableItemSample.js?20240320104438',
+			'./Scripts/sample/FingerSample.js?20240320104438',
+			'./Scripts/ScaleAdapterMtg.js?20240320104438',
+			'./Scripts/SceneTransition.js?20240320104438',
+			'./Scripts/solitaire/card.js?20240320104438',
+			'./Scripts/solitaire/solitaire.js?20240320104438',
+			'./Scripts/start/BtnControl.js?20240320104438',
+			'./Scripts/start/Pawn.js?20240320104438',
+			'./Scripts/start/Perspectives.js?20240320104438',
+			'./Scripts/start/SKhelp.js?20240320104438',
+			'./Scripts/start/StartBeh.js?20240320104438',
+			'./Scripts/vp/promise-polyfill-min.js?20240319233349',
+			'./Scripts/vp/regenerator-runtime-min.js?20240319233349',
+			'./Scripts/vp/VPEditor.js?20240319233349',
+			'./Scripts/vp/VPGamePlay.js?20240319233349',
+			'./Scripts/vp/VPHand.js?20240319233349',
+			'./Scripts/vp/VPTimer.js?20240319233349',
+			'./Scripts/vp/VPComponent_52c4b54a.js?20240319233349',
+			'./Scripts/vp/VPComponent_90a38670.js?20240319233349',
+			'./Scripts/vp/VPComponent_b0fa04a9.js?20240319233349',
+			'./Scripts/vp/VPComponent_b9e3bd53.js?20240319233349',
+
+        ];
+
+        // Asset count that need preload in boot
+        qici.loadingAssetCount = 45;
+    </script>
+    <div style="overflow: hidden; padding: 0; margin: 0; width: 100%; height: 100%">
+    <div id="gameDiv" style="position: absolute; width: 100%; height: 100%"></div>
+    </div>
+    <script type="text/javascript">
+    function resizeGameSize() {
+        var game = window[qici.config.gameInstance];
+        if (!game) return;
+        gameDiv.style.width = window.innerWidth + "px";
+        gameDiv.style.height = window.innerHeight + "px";
+        game.setGameSize(window.innerWidth, window.innerHeight);
+        game.world && game.world.updateDomRoot();
+    }
+    window.addEventListener("resize", function () {
+        resizeGameSize();
+    });
+    window.gameReady = function () {
+        var gamePlay = qc.gameOb.world.children[0].children[0];
+        var ped = gamePlay.getScript("playsmart.editor.data");
+        if (typeof ped === "undefined") {
+        ped = gamePlay.addScript("playsmart.editor.data");
+        }
+        if (ped && !ped.sceneData) ped.sceneData = {};
+        if (gamePlay.children.length > 0) {
+        gamePlay.children.forEach(function (scene) {
+            if (scene && ped && ped.sceneData && typeof ped.sceneData[scene.uuid] === "undefined") {
+            ped.sceneData[scene.uuid] = {
+                children: [],
+                sceneName: scene.name,
+            };
+            }
+        });
+        }
+
+        function ensureScript(node, className) {
+        if (!node.getScript(className)) {
+            node.addScript(className);
+        }
+        }
+
+        ensureScript(gamePlay, "ps.VPGamePlay")
+        ensureScript(gamePlay, "ps.VPTimer")
+        ensureScript(gamePlay, "ps.VideosManager")
+
+        parent.postMessage("scene-game-ready-tech", "*");
+    };
+    </script>
+    <script type="text/javascript">
+    window.alert = function (msg) {
+        console.error(msg);
+    };
+    </script>
+    
+    <script src="../lib/LAB.js"></script>
+    <script src='../lib/qc-loading-debug.js'></script>
+    <script src='../lib/qc-loading-editor.js'></script>
+    <script src="../lib/expand/languagesMgr/languagesMgr.js"></script>
+</body>
+</html>

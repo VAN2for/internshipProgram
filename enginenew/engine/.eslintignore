@@ -1,0 +1,7 @@
+lib/*
+editorservice/*
+Plugins/*
+node_modules/*
+/Gruntfile.js
+/lib.min.js
+!lib/ps-editor-project.js

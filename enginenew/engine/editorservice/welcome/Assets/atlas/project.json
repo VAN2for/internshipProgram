@@ -1,0 +1,215 @@
+{
+    "frames": {
+        "qici.png": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 318,
+                "h": 318
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 318,
+                "h": 318
+            },
+            "sourceSize": {
+                "w": 318,
+                "h": 318
+            }
+        },
+        "small_logo.png": {
+            "frame": {
+                "x": 322,
+                "y": 1,
+                "w": 68,
+                "h": 54
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 68,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 68,
+                "h": 54
+            }
+        },
+        "background.png": {
+            "frame": {
+                "x": 322,
+                "y": 58,
+                "w": 59,
+                "h": 65
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 59,
+                "h": 65
+            },
+            "sourceSize": {
+                "w": 59,
+                "h": 65
+            }
+        },
+        "btn_bg.png": {
+            "frame": {
+                "x": 322,
+                "y": 126,
+                "w": 41,
+                "h": 42
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 41,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 41,
+                "h": 42
+            }
+        },
+        "title_bg.png": {
+            "frame": {
+                "x": 322,
+                "y": 171,
+                "w": 41,
+                "h": 42
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 41,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 41,
+                "h": 42
+            }
+        },
+        "browser.png": {
+            "frame": {
+                "x": 322,
+                "y": 216,
+                "w": 30,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 29
+            }
+        },
+        "create_btn.png": {
+            "frame": {
+                "x": 355,
+                "y": 216,
+                "w": 30,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 29
+            }
+        },
+        "path.png": {
+            "frame": {
+                "x": 366,
+                "y": 126,
+                "w": 20,
+                "h": 20
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 20
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 20
+            }
+        },
+        "path_background.png": {
+            "frame": {
+                "x": 366,
+                "y": 171,
+                "w": 20,
+                "h": 20
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 20
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 20
+            }
+        },
+        "path_select.png": {
+            "frame": {
+                "x": 366,
+                "y": 149,
+                "w": 10,
+                "h": 2
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 2
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 2
+            }
+        }
+    },
+    "meta": {
+        "app": "QCEngine",
+        "version": "1.0",
+        "image": "project",
+        "format": "RGBA8888",
+        "size": {
+            "w": 512,
+            "h": 512
+        },
+        "scale": "1"
+    }
+}

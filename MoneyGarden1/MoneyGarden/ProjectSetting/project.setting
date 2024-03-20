@@ -1,0 +1,66 @@
+{
+  "projectName": "qcplay",
+  "gameName": "MoneyGarden",
+  "companyName": "qcplay",
+  "gameInstance": "qc_game",
+  "div": "",
+  "orientation": 0,
+  "qcVer": "0.9",
+  "version": "1",
+  "loading": "",
+  "backgroundColor": 4671303,
+  "gameWidth": "640",
+  "toolFlag": 508,
+  "frameRate": {
+    "mobile": 60,
+    "desktop": 60
+  },
+  "runInBackground": true,
+  "renderer": "Auto",
+  "antialias": true,
+  "transparent": true,
+  "appCache": false,
+  "dirtyRectangles": false,
+  "dirtyRectanglesShow": false,
+  "localStorageID": "com.qcplay.demo.dota",
+  "fixedGameSize": {
+    "enabled": false,
+    "width": 640,
+    "height": 960
+  },
+  "resolutionRatio": 0.25,
+  "customSettings": {},
+  "publish": {
+    "android": "build/android",
+    "ios": "build/ios",
+    "browsers": "Build",
+    "wechat": "build/wechat",
+    "browsers_timestamp": false,
+    "android_timestamp": true,
+    "ios_timestamp": true,
+    "wechat_timestamp": true
+  },
+  "android": {
+    "minTarget": 16,
+    "target": 16,
+    "buildCode": 0,
+    "frameRate": 30,
+    "renderer": "Canvas",
+    "defaultOrientation": 0
+  },
+  "ios": {
+    "target": "8.0",
+    "buildCode": 0,
+    "frameRate": 30,
+    "renderer": "Auto",
+    "defaultOrientation": 0,
+    "splashScaling": 2
+  },
+  "subDomain": false,
+  "assets_url": "http://10.192.168.127:5002/build/wechat/DevProject/",
+  "buildVersion": "5",
+  "subPackages": {},
+  "developerMode": false,
+  "useLanguages": true,
+  "sceneVersion": "20231108170638"
+}

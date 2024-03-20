@@ -1,0 +1,13 @@
+# 跳一跳玩法模板
+
+[confluence 文档](https://confluence.mobvista.com/pages/viewpage.action?pageId=82917514)
+
+## 参考素材
+
+> [PlaySmart 前台地址](http://pl-dev.mintegral.com)
+>
+> 帐号：jingru.wu@mobvista.com
+>
+> 密码：pt2022
+>
+> 项目名：jump_template

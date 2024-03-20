@@ -1,0 +1,7371 @@
+{
+  "fallbackLocale": "zh-cn",
+  "currentLanguage": "zh-cn",
+  "languages": {
+    "en": {
+      "83ab9b91-6da5-4b32-ad0b-b001ecbe5056_V": {
+        "style": {
+          "fontSize": 44,
+          "color": [
+            245,
+            175,
+            0,
+            1
+          ],
+          "stroke": 10,
+          "strokeColor": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              245,
+              175,
+              0
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              245,
+              175,
+              0
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "APP\nNAME",
+        "name": "app_name",
+        "scene": "Global Scene"
+      },
+      "83ab9b91-6da5-4b32-ad0b-b001ecbe5056_H": {
+        "style": {
+          "fontSize": 44,
+          "color": [
+            245,
+            175,
+            0,
+            1
+          ],
+          "stroke": 10,
+          "strokeColor": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              245,
+              175,
+              0
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              245,
+              175,
+              0
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "APP\nNAME",
+        "name": "app_name",
+        "scene": "Global Scene"
+      },
+      "93d72d52-a3af-4fad-a5ff-c90a02d649a0_V": {
+        "style": {
+          "fontSize": 40,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 6,
+          "strokeColor": [
+            191,
+            105,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "DOWNLOAD",
+        "name": "download",
+        "scene": "Global Scene"
+      },
+      "93d72d52-a3af-4fad-a5ff-c90a02d649a0_H": {
+        "style": {
+          "fontSize": 40,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 6,
+          "strokeColor": [
+            191,
+            105,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "DOWNLOAD",
+        "name": "download",
+        "scene": "Global Scene"
+      },
+      "663a5c2e-2fa9-4022-aed9-8dbb4bc5d7ed_V": {
+        "style": {
+          "fontSize": 30,
+          "color": [
+            99,
+            78,
+            0,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              99,
+              78,
+              0
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              99,
+              78,
+              0
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "CASH OUT",
+        "name": "cash_out",
+        "scene": "scene1_playing"
+      },
+      "663a5c2e-2fa9-4022-aed9-8dbb4bc5d7ed_H": {
+        "style": {
+          "fontSize": 30,
+          "color": [
+            99,
+            78,
+            0,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              99,
+              78,
+              0
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              99,
+              78,
+              0
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "CASH OUT",
+        "name": "cash_out",
+        "scene": "scene1_playing"
+      },
+      "18249dfe-c0c2-4bf7-af53-876f34eebb6e_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$999",
+        "name": "money5",
+        "scene": "scene1_playing"
+      },
+      "18249dfe-c0c2-4bf7-af53-876f34eebb6e_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$999",
+        "name": "money5",
+        "scene": "scene1_playing"
+      },
+      "61d57a1d-b4af-4ef5-b3d4-ef63903e44e5_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$299",
+        "name": "money4",
+        "scene": "scene1_playing"
+      },
+      "61d57a1d-b4af-4ef5-b3d4-ef63903e44e5_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$299",
+        "name": "money4",
+        "scene": "scene1_playing"
+      },
+      "0932bbb2-e849-418b-b8ea-51c657763ba8_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$189",
+        "name": "money3",
+        "scene": "scene1_playing"
+      },
+      "0932bbb2-e849-418b-b8ea-51c657763ba8_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$189",
+        "name": "money3",
+        "scene": "scene1_playing"
+      },
+      "49ed6521-a067-463b-9a9f-463d4feac49f_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$89",
+        "name": "money2",
+        "scene": "scene1_playing"
+      },
+      "49ed6521-a067-463b-9a9f-463d4feac49f_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$89",
+        "name": "money2",
+        "scene": "scene1_playing"
+      },
+      "51ee431d-fc7d-462c-8c7e-fa29e3455d50_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$59",
+        "name": "money1",
+        "scene": "scene1_playing"
+      },
+      "51ee431d-fc7d-462c-8c7e-fa29e3455d50_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$59",
+        "name": "money1",
+        "scene": "scene1_playing"
+      },
+      "980e0057-0c40-468d-9c9e-9ce64bc7e000_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$0",
+        "name": "money0",
+        "scene": "scene1_playing"
+      },
+      "980e0057-0c40-468d-9c9e-9ce64bc7e000_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$0",
+        "name": "money0",
+        "scene": "scene1_playing"
+      },
+      "6fece158-9cd4-486e-ad44-5d1894b812a8_V": {
+        "style": {
+          "fontSize": 22,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": false,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "Withdrawal and reward rules are subject to the rules displayed in the App.",
+        "name": "statement",
+        "scene": "scene1_playing"
+      },
+      "6fece158-9cd4-486e-ad44-5d1894b812a8_H": {
+        "style": {
+          "fontSize": 22,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": false,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "Withdrawal and reward rules are subject to the rules displayed in the App.",
+        "name": "statement",
+        "scene": "scene1_playing"
+      },
+      "a6c5592f-69da-478c-b32d-d0cf740f5d8f_V": {
+        "style": {
+          "fontSize": 30,
+          "color": [
+            99,
+            78,
+            0,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              99,
+              78,
+              0
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              99,
+              78,
+              0
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "CASH OUT",
+        "name": "cash_out",
+        "scene": "scene2_ending"
+      },
+      "a6c5592f-69da-478c-b32d-d0cf740f5d8f_H": {
+        "style": {
+          "fontSize": 30,
+          "color": [
+            99,
+            78,
+            0,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              99,
+              78,
+              0
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              99,
+              78,
+              0
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "CASH OUT",
+        "name": "cash_out",
+        "scene": "scene2_ending"
+      },
+      "1a747758-fd46-451f-982d-df2fc5fbc3e3_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$999",
+        "name": "money5",
+        "scene": "scene2_ending"
+      },
+      "1a747758-fd46-451f-982d-df2fc5fbc3e3_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$999",
+        "name": "money5",
+        "scene": "scene2_ending"
+      },
+      "0009ad58-1740-4a72-9869-b6e0201245fe_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$299",
+        "name": "money4",
+        "scene": "scene2_ending"
+      },
+      "0009ad58-1740-4a72-9869-b6e0201245fe_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$299",
+        "name": "money4",
+        "scene": "scene2_ending"
+      },
+      "e40d876c-9f36-481e-b1b7-ba3e665d5317_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$189",
+        "name": "money3",
+        "scene": "scene2_ending"
+      },
+      "e40d876c-9f36-481e-b1b7-ba3e665d5317_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$189",
+        "name": "money3",
+        "scene": "scene2_ending"
+      },
+      "787a9e81-1b86-47ea-b1a8-e40b47f29e73_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$89",
+        "name": "money2",
+        "scene": "scene2_ending"
+      },
+      "787a9e81-1b86-47ea-b1a8-e40b47f29e73_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$89",
+        "name": "money2",
+        "scene": "scene2_ending"
+      },
+      "e10b3843-1c36-4965-bdd3-4162d2f3b1d4_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$59",
+        "name": "money1",
+        "scene": "scene2_ending"
+      },
+      "e10b3843-1c36-4965-bdd3-4162d2f3b1d4_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$59",
+        "name": "money1",
+        "scene": "scene2_ending"
+      },
+      "72aaef62-7640-403d-b059-e94636f0423b_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$0",
+        "name": "money0",
+        "scene": "scene2_ending"
+      },
+      "72aaef62-7640-403d-b059-e94636f0423b_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$0",
+        "name": "money0",
+        "scene": "scene2_ending"
+      },
+      "76e9c54c-acd1-4d52-aff4-f462be36ed73_V": {
+        "style": {
+          "fontSize": 36,
+          "color": [
+            235,
+            106,
+            25,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": false,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "You've got cash reward",
+        "name": "subtitle_text",
+        "scene": "scene2_ending"
+      },
+      "76e9c54c-acd1-4d52-aff4-f462be36ed73_H": {
+        "style": {
+          "fontSize": 36,
+          "color": [
+            235,
+            106,
+            25,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": false,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "You've got cash reward",
+        "name": "subtitle_text",
+        "scene": "scene2_ending"
+      },
+      "0b00645f-c58e-4aaf-aaa2-dcba489bc9df_V": {
+        "style": {
+          "fontSize": 120,
+          "color": [
+            235,
+            106,
+            25,
+            1
+          ],
+          "stroke": 12,
+          "strokeColor": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$999",
+        "name": "money_text",
+        "scene": "scene2_ending"
+      },
+      "0b00645f-c58e-4aaf-aaa2-dcba489bc9df_H": {
+        "style": {
+          "fontSize": 120,
+          "color": [
+            235,
+            106,
+            25,
+            1
+          ],
+          "stroke": 12,
+          "strokeColor": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "$999",
+        "name": "money_text",
+        "scene": "scene2_ending"
+      },
+      "7b44cf9a-35c2-4cdc-a50c-28f69c254a93_V": {
+        "style": {
+          "fontSize": 30,
+          "color": [
+            235,
+            106,
+            25,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": false,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "Click to claim",
+        "name": "hint_text",
+        "scene": "scene2_ending"
+      },
+      "7b44cf9a-35c2-4cdc-a50c-28f69c254a93_H": {
+        "style": {
+          "fontSize": 30,
+          "color": [
+            235,
+            106,
+            25,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": false,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "Click to claim",
+        "name": "hint_text",
+        "scene": "scene2_ending"
+      },
+      "700bf574-92c4-4277-be37-8ba013176983_V": {
+        "style": {
+          "fontSize": 56,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 10,
+          "strokeColor": [
+            237,
+            114,
+            32,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "Congratulations!",
+        "name": "congratulations_text",
+        "scene": "scene2_ending"
+      },
+      "700bf574-92c4-4277-be37-8ba013176983_H": {
+        "style": {
+          "fontSize": 56,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 10,
+          "strokeColor": [
+            237,
+            114,
+            32,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "Congratulations!",
+        "name": "congratulations_text",
+        "scene": "scene2_ending"
+      },
+      "f264244f-602f-472b-88c7-600266fc0630_V": {
+        "style": {
+          "fontSize": 45,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 10,
+          "strokeColor": [
+            218,
+            102,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "CASH OUT",
+        "name": "cash_out_text",
+        "scene": "scene2_ending"
+      },
+      "f264244f-602f-472b-88c7-600266fc0630_H": {
+        "style": {
+          "fontSize": 45,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 10,
+          "strokeColor": [
+            218,
+            102,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "CASH OUT",
+        "name": "cash_out_text",
+        "scene": "scene2_ending"
+      },
+      "e9163ce7-ec99-4ec7-aaae-fc526d14344d_V": {
+        "style": {
+          "fontSize": 22,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": false,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "Withdrawal and reward rules are subject to the rules displayed in the App.",
+        "name": "statement",
+        "scene": "scene2_ending"
+      },
+      "e9163ce7-ec99-4ec7-aaae-fc526d14344d_H": {
+        "style": {
+          "fontSize": 22,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": false,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "Withdrawal and reward rules are subject to the rules displayed in the App.",
+        "name": "statement",
+        "scene": "scene2_ending"
+      }
+    },
+    "zh-cn": {
+      "83ab9b91-6da5-4b32-ad0b-b001ecbe5056_V": {
+        "style": {
+          "fontSize": 44,
+          "color": [
+            245,
+            175,
+            0,
+            1
+          ],
+          "stroke": 10,
+          "strokeColor": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              245,
+              175,
+              0
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              245,
+              175,
+              0
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "产品\n名称",
+        "name": "app_name",
+        "scene": "Global Scene"
+      },
+      "83ab9b91-6da5-4b32-ad0b-b001ecbe5056_H": {
+        "style": {
+          "fontSize": 44,
+          "color": [
+            245,
+            175,
+            0,
+            1
+          ],
+          "stroke": 10,
+          "strokeColor": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              245,
+              175,
+              0
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              245,
+              175,
+              0
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "产品\n名称",
+        "name": "app_name",
+        "scene": "Global Scene"
+      },
+      "93d72d52-a3af-4fad-a5ff-c90a02d649a0_V": {
+        "style": {
+          "fontSize": 40,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 6,
+          "strokeColor": [
+            191,
+            105,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "下载",
+        "name": "download",
+        "scene": "Global Scene"
+      },
+      "93d72d52-a3af-4fad-a5ff-c90a02d649a0_H": {
+        "style": {
+          "fontSize": 40,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 6,
+          "strokeColor": [
+            191,
+            105,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "下载",
+        "name": "download",
+        "scene": "Global Scene"
+      },
+      "663a5c2e-2fa9-4022-aed9-8dbb4bc5d7ed_V": {
+        "style": {
+          "fontSize": 35,
+          "color": [
+            99,
+            78,
+            0,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              99,
+              78,
+              0
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              99,
+              78,
+              0
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "提现",
+        "name": "cash_out",
+        "scene": "scene1_playing"
+      },
+      "663a5c2e-2fa9-4022-aed9-8dbb4bc5d7ed_H": {
+        "style": {
+          "fontSize": 35,
+          "color": [
+            99,
+            78,
+            0,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              99,
+              78,
+              0
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              99,
+              78,
+              0
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "提现",
+        "name": "cash_out",
+        "scene": "scene1_playing"
+      },
+      "18249dfe-c0c2-4bf7-af53-876f34eebb6e_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥999",
+        "name": "money5",
+        "scene": "scene1_playing"
+      },
+      "18249dfe-c0c2-4bf7-af53-876f34eebb6e_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥999",
+        "name": "money5",
+        "scene": "scene1_playing"
+      },
+      "61d57a1d-b4af-4ef5-b3d4-ef63903e44e5_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥299",
+        "name": "money4",
+        "scene": "scene1_playing"
+      },
+      "61d57a1d-b4af-4ef5-b3d4-ef63903e44e5_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥299",
+        "name": "money4",
+        "scene": "scene1_playing"
+      },
+      "0932bbb2-e849-418b-b8ea-51c657763ba8_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥189",
+        "name": "money3",
+        "scene": "scene1_playing"
+      },
+      "0932bbb2-e849-418b-b8ea-51c657763ba8_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥189",
+        "name": "money3",
+        "scene": "scene1_playing"
+      },
+      "49ed6521-a067-463b-9a9f-463d4feac49f_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥89",
+        "name": "money2",
+        "scene": "scene1_playing"
+      },
+      "49ed6521-a067-463b-9a9f-463d4feac49f_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥89",
+        "name": "money2",
+        "scene": "scene1_playing"
+      },
+      "51ee431d-fc7d-462c-8c7e-fa29e3455d50_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥59",
+        "name": "money1",
+        "scene": "scene1_playing"
+      },
+      "51ee431d-fc7d-462c-8c7e-fa29e3455d50_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥59",
+        "name": "money1",
+        "scene": "scene1_playing"
+      },
+      "980e0057-0c40-468d-9c9e-9ce64bc7e000_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥0",
+        "name": "money0",
+        "scene": "scene1_playing"
+      },
+      "980e0057-0c40-468d-9c9e-9ce64bc7e000_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥0",
+        "name": "money0",
+        "scene": "scene1_playing"
+      },
+      "6fece158-9cd4-486e-ad44-5d1894b812a8_V": {
+        "style": {
+          "fontSize": 22,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": false,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "具体金额以实际活动或APP页面所载活动规则为准。",
+        "name": "statement",
+        "scene": "scene1_playing"
+      },
+      "6fece158-9cd4-486e-ad44-5d1894b812a8_H": {
+        "style": {
+          "fontSize": 22,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": false,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "具体金额以实际活动或APP页面所载活动规则为准。",
+        "name": "statement",
+        "scene": "scene1_playing"
+      },
+      "a6c5592f-69da-478c-b32d-d0cf740f5d8f_V": {
+        "style": {
+          "fontSize": 35,
+          "color": [
+            99,
+            78,
+            0,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              99,
+              78,
+              0
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              99,
+              78,
+              0
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "提现",
+        "name": "cash_out",
+        "scene": "scene2_ending"
+      },
+      "a6c5592f-69da-478c-b32d-d0cf740f5d8f_H": {
+        "style": {
+          "fontSize": 35,
+          "color": [
+            99,
+            78,
+            0,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              99,
+              78,
+              0
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              99,
+              78,
+              0
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "提现",
+        "name": "cash_out",
+        "scene": "scene2_ending"
+      },
+      "1a747758-fd46-451f-982d-df2fc5fbc3e3_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥999",
+        "name": "money5",
+        "scene": "scene2_ending"
+      },
+      "1a747758-fd46-451f-982d-df2fc5fbc3e3_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥999",
+        "name": "money5",
+        "scene": "scene2_ending"
+      },
+      "0009ad58-1740-4a72-9869-b6e0201245fe_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥299",
+        "name": "money4",
+        "scene": "scene2_ending"
+      },
+      "0009ad58-1740-4a72-9869-b6e0201245fe_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥299",
+        "name": "money4",
+        "scene": "scene2_ending"
+      },
+      "e40d876c-9f36-481e-b1b7-ba3e665d5317_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥189",
+        "name": "money3",
+        "scene": "scene2_ending"
+      },
+      "e40d876c-9f36-481e-b1b7-ba3e665d5317_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥189",
+        "name": "money3",
+        "scene": "scene2_ending"
+      },
+      "787a9e81-1b86-47ea-b1a8-e40b47f29e73_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥89",
+        "name": "money2",
+        "scene": "scene2_ending"
+      },
+      "787a9e81-1b86-47ea-b1a8-e40b47f29e73_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥89",
+        "name": "money2",
+        "scene": "scene2_ending"
+      },
+      "e10b3843-1c36-4965-bdd3-4162d2f3b1d4_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥59",
+        "name": "money1",
+        "scene": "scene2_ending"
+      },
+      "e10b3843-1c36-4965-bdd3-4162d2f3b1d4_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥59",
+        "name": "money1",
+        "scene": "scene2_ending"
+      },
+      "72aaef62-7640-403d-b059-e94636f0423b_V": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥0",
+        "name": "money0",
+        "scene": "scene2_ending"
+      },
+      "72aaef62-7640-403d-b059-e94636f0423b_H": {
+        "style": {
+          "fontSize": 72,
+          "color": [
+            255,
+            238,
+            89,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              238,
+              89
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥0",
+        "name": "money0",
+        "scene": "scene2_ending"
+      },
+      "76e9c54c-acd1-4d52-aff4-f462be36ed73_V": {
+        "style": {
+          "fontSize": 40,
+          "color": [
+            235,
+            106,
+            25,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": false,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "赢得了现金奖励",
+        "name": "subtitle_text",
+        "scene": "scene2_ending"
+      },
+      "76e9c54c-acd1-4d52-aff4-f462be36ed73_H": {
+        "style": {
+          "fontSize": 40,
+          "color": [
+            235,
+            106,
+            25,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": false,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "赢得了现金奖励",
+        "name": "subtitle_text",
+        "scene": "scene2_ending"
+      },
+      "0b00645f-c58e-4aaf-aaa2-dcba489bc9df_V": {
+        "style": {
+          "fontSize": 120,
+          "color": [
+            235,
+            106,
+            25,
+            1
+          ],
+          "stroke": 12,
+          "strokeColor": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥999",
+        "name": "money_text",
+        "scene": "scene2_ending"
+      },
+      "0b00645f-c58e-4aaf-aaa2-dcba489bc9df_H": {
+        "style": {
+          "fontSize": 120,
+          "color": [
+            235,
+            106,
+            25,
+            1
+          ],
+          "stroke": 12,
+          "strokeColor": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "￥999",
+        "name": "money_text",
+        "scene": "scene2_ending"
+      },
+      "7b44cf9a-35c2-4cdc-a50c-28f69c254a93_V": {
+        "style": {
+          "fontSize": 30,
+          "color": [
+            235,
+            106,
+            25,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": false,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "点击领取吧",
+        "name": "hint_text",
+        "scene": "scene2_ending"
+      },
+      "7b44cf9a-35c2-4cdc-a50c-28f69c254a93_H": {
+        "style": {
+          "fontSize": 30,
+          "color": [
+            235,
+            106,
+            25,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": false,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              235,
+              106,
+              25
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "点击领取吧",
+        "name": "hint_text",
+        "scene": "scene2_ending"
+      },
+      "700bf574-92c4-4277-be37-8ba013176983_V": {
+        "style": {
+          "fontSize": 60,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 10,
+          "strokeColor": [
+            237,
+            114,
+            32,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "恭喜你!",
+        "name": "congratulations_text",
+        "scene": "scene2_ending"
+      },
+      "700bf574-92c4-4277-be37-8ba013176983_H": {
+        "style": {
+          "fontSize": 60,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 10,
+          "strokeColor": [
+            237,
+            114,
+            32,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "恭喜你!",
+        "name": "congratulations_text",
+        "scene": "scene2_ending"
+      },
+      "f264244f-602f-472b-88c7-600266fc0630_V": {
+        "style": {
+          "fontSize": 45,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 10,
+          "strokeColor": [
+            218,
+            102,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "提现",
+        "name": "cash_out_text",
+        "scene": "scene2_ending"
+      },
+      "f264244f-602f-472b-88c7-600266fc0630_H": {
+        "style": {
+          "fontSize": 45,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 10,
+          "strokeColor": [
+            218,
+            102,
+            0,
+            1
+          ],
+          "bold": true,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "提现",
+        "name": "cash_out_text",
+        "scene": "scene2_ending"
+      },
+      "e9163ce7-ec99-4ec7-aaae-fc526d14344d_V": {
+        "style": {
+          "fontSize": 22,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": false,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "具体金额以实际活动或APP页面所载活动规则为准。",
+        "name": "statement",
+        "scene": "scene2_ending"
+      },
+      "e9163ce7-ec99-4ec7-aaae-fc526d14344d_H": {
+        "style": {
+          "fontSize": 22,
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "stroke": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bold": false,
+          "italic": false,
+          "enableShadow": false,
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.5019607843137255
+          ],
+          "shadowBlur": 10,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3,
+          "gradient": false,
+          "startColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "endColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "enableGlow": false,
+          "glowColor": [
+            255,
+            0,
+            0,
+            1
+          ],
+          "glowBlur": 1,
+          "lineSpacing": 0,
+          "enableUnderline": false,
+          "underlineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "underlineWidth": 1,
+          "underlineSpacing": 0,
+          "enableDeleteline": false,
+          "deletelineColor": {
+            "_alpha": 1,
+            "_rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          "deletelineWidth": 1,
+          "deletelineSpacing": 0,
+          "letterSpacing": 0,
+          "lineHeight": 1,
+          "font": "Arial"
+        },
+        "value": "具体金额以实际活动或APP页面所载活动规则为准。",
+        "name": "statement",
+        "scene": "scene2_ending"
+      }
+    }
+  },
+  "selfDevToPs": false
+}

@@ -1,0 +1,28 @@
+{
+    "gameConfig": {
+        "jump_times": {
+            "value": 0,
+            "min": 0,
+            "max": 5,
+            "interval": 1,
+            "unit": "次",
+            "type": "slider",
+            "priority": 0,
+            "title": "额外跳转机制",
+            "desc": "第几次成功放置纸牌额外跳转（0=不跳转）",
+            "scene": "scene1_playing"
+        },
+        "success_times": {
+            "value": 5,
+            "min": 1,
+            "max": 5,
+            "interval": 1,
+            "unit": "次",
+            "type": "slider",
+            "priority": 1,
+            "title": "完成几次摆放结束游戏",
+            "desc": "第几次成功放置纸牌结束游戏",
+            "scene": "scene1_playing"
+        }
+    }
+}

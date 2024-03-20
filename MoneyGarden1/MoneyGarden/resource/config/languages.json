@@ -1,0 +1,335 @@
+{
+    "fallbackLocale": "en",
+    "languages": {
+        "zh-cn": {
+            "Download": {
+                "value": "下载",
+                "style": {
+                    "fontSize": 56,
+                    "color": "#ffffff",
+                    "alpha": 1,
+                    "bold": true,
+                    "shadowColor": "#d35e00",
+                    "shadowBlur": 0,
+                    "shadowOffsetX": 0,
+                    "shadowOffsetY": 4
+                },
+                "stage": "game",
+                "group": "group_permanent",
+                "resource": "ctat_download.png"
+            },
+            "免责声明文本": {
+                "value": "不保证最终结果，您所能获取的金额以APP内公布的规则为准。",
+                "style": {
+                    "fontSize": 20,
+                    "color": "#ffffff",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "game",
+                "group": "group_permanent",
+                "resource": "cover.png"
+            },
+            "allMoneyGame": {
+                "value": "",
+                "style": {
+                    "fontSize": 72,
+                    "color": "#002e86",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "game",
+                "group": "group_permanent"
+            },
+            "Money Garden": {
+                "value": "Money Garden",
+                "style": {
+                    "fontSize": 40,
+                    "color": "#f96f00",
+                    "alpha": 1,
+                    "stroke": 8,
+                    "strokeColor": "#ffffff",
+                    "bold": true
+                },
+                "stage": "game",
+                "group": "group_permanent",
+                "resource": "icon.png"
+            },
+            "Congratulations": {
+                "value": "恭喜你",
+                "style": {
+                    "fontSize": 46,
+                    "color": "#108df2",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "ending",
+                "resource": "board.png"
+            },
+            "you’ve received a cash reward!": {
+                "value": "您已收到现金奖励!",
+                "style": {
+                    "fontSize": 22,
+                    "color": "#383838",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "ending",
+                "resource": "board.png"
+            },
+            "allMoneyEnding": {
+                "value": "",
+                "style": {
+                    "fontSize": 72,
+                    "color": "#333333",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "ending",
+                "resource": "board.png"
+            },
+            "level": {
+                "value": "1",
+                "style": {
+                    "fontSize": 24,
+                    "color": "#424242",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "game",
+                "group": "group_stage1",
+                "resource": "levelAmount.png"
+            },
+            "money": {
+                "value": "0.85",
+                "style": {
+                    "fontSize": 32,
+                    "color": "#1f2a5e",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "game",
+                "group": "group_stage1",
+                "resource": "couponShining.png"
+            },
+            "Excellent": {
+                "value": "太棒了!",
+                "style": {
+                    "fontSize": 80,
+                    "color": "#13a0ce",
+                    "alpha": 1,
+                    "stroke": 16,
+                    "strokeColor": "#ffffff",
+                    "bold": true
+                },
+                "stage": "game",
+                "group": "group_stage2"
+            },
+            "getMoney": {
+                "value": "",
+                "style": {
+                    "fontSize": 50,
+                    "color": "#323232",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "game",
+                "group": "group_stage2",
+                "resource": "paypalBoard.png"
+            },
+            "Downloadx": {
+                "value": "下载",
+                "style": {
+                    "fontSize": 40,
+                    "color": "#ffffff",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "ending",
+                "resource": "ctat1_download.png"
+            },
+            "Cash Out": {
+                "value": "提现",
+                "style": {
+                    "fontSize": 36,
+                    "color": "#ffffff",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "game",
+                "group": "group_permanent",
+                "resource": "ctat2_cashOut.png"
+            },
+            "moneySymbol": {
+                "value": "￥",
+                "style": {},
+                "stage": "game"
+            }
+        },
+        "en": {
+            "Download": {
+                "value": "Download",
+                "style": {
+                    "fontSize": 56,
+                    "color": "#ffffff",
+                    "alpha": 1,
+                    "bold": true,
+                    "shadowColor": "#d35e00",
+                    "shadowBlur": 0,
+                    "shadowOffsetX": 0,
+                    "shadowOffsetY": 4
+                },
+                "stage": "game",
+                "group": "group_permanent",
+                "resource": "ctat_download.png"
+            },
+            "免责声明文本": {
+                "value": "Result is not guaranteed. Amount paid to you is subject to rules in the app.",
+                "style": {
+                    "fontSize": 20,
+                    "color": "#ffffff",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "game",
+                "group": "group_permanent",
+                "resource": "cover.png"
+            },
+            "allMoneyGame": {
+                "value": "",
+                "style": {
+                    "fontSize": 72,
+                    "color": "#002e86",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "game",
+                "group": "group_permanent"
+            },
+            "Money Garden": {
+                "value": "Money Garden",
+                "style": {
+                    "fontSize": 40,
+                    "color": "#f96f00",
+                    "alpha": 1,
+                    "stroke": 8,
+                    "strokeColor": "#ffffff",
+                    "bold": true
+                },
+                "stage": "game",
+                "group": "group_permanent",
+                "resource": "icon.png"
+            },
+            "Congratulations": {
+                "value": "Congratulations",
+                "style": {
+                    "fontSize": 46,
+                    "color": "#108df2",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "ending",
+                "resource": "board.png"
+            },
+            "you’ve received a cash reward!": {
+                "value": "you’ve received a cash reward!",
+                "style": {
+                    "fontSize": 22,
+                    "color": "#383838",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "ending",
+                "resource": "board.png"
+            },
+            "allMoneyEnding": {
+                "value": "",
+                "style": {
+                    "fontSize": 72,
+                    "color": "#333333",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "ending",
+                "resource": "board.png"
+            },
+            "level": {
+                "value": "1",
+                "style": {
+                    "fontSize": 24,
+                    "color": "#424242",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "game",
+                "group": "group_stage1",
+                "resource": "levelAmount.png"
+            },
+            "money": {
+                "value": "0.85",
+                "style": {
+                    "fontSize": 32,
+                    "color": "#1f2a5e",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "game",
+                "group": "group_stage1",
+                "resource": "couponShining.png"
+            },
+            "Excellent": {
+                "value": "Excellent",
+                "style": {
+                    "fontSize": 80,
+                    "color": "#13a0ce",
+                    "alpha": 1,
+                    "stroke": 16,
+                    "strokeColor": "#ffffff",
+                    "bold": true
+                },
+                "stage": "game",
+                "group": "group_stage2"
+            },
+            "getMoney": {
+                "value": "",
+                "style": {
+                    "fontSize": 50,
+                    "color": "#323232",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "game",
+                "group": "group_stage2",
+                "resource": "paypalBoard.png"
+            },
+            "Downloadx": {
+                "value": "Download",
+                "style": {
+                    "fontSize": 40,
+                    "color": "#ffffff",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "ending",
+                "resource": "ctat1_download.png"
+            },
+            "Cash Out": {
+                "value": "Cash Out",
+                "style": {
+                    "fontSize": 36,
+                    "color": "#ffffff",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "game",
+                "group": "group_permanent",
+                "resource": "ctat2_cashOut.png"
+            },
+            "moneySymbol": {
+                "value": "$",
+                "style": {},
+                "stage": "game"
+            }
+        }
+    }
+}
